@@ -1,0 +1,19 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.banner__image {
+  position: relative;
+  filter: brightness(0.7);
+  border-radius: 20px;
+  width: 80%;
+}
+.banner__text {
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+}/*# sourceMappingURL=Banner.css.map */

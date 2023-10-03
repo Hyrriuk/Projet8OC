@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 45px;
+    width: 80%;
+
+    &__logo {
+        width: 210px;
+        height: 68px;
+    }
+    &__nav {
+        display: flex;
+        gap: 57px;
+
+        &__buttonNav {
+            font-size: 24px;
+            font-weight: 500;
+            color: #ff6060;
+            background-color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
