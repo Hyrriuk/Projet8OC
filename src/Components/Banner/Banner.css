@@ -1,0 +1,21 @@
+.banner {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.banner__image {
+  position: relative;
+  filter: brightness(0.7);
+  border-radius: 20px;
+  width: 95vw;
+  height: 18vw;
+  margin: 0 auto;
+}
+.banner__text {
+  margin-left: 16px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}/*# sourceMappingURL=Banner.css.map */

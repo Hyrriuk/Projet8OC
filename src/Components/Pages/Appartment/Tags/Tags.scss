@@ -1,0 +1,15 @@
+.appartment__tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vw;
+
+    &__tag {
+        color: white;
+        background-color: #ff6060;
+        border-radius: 10px;
+        padding: 5px 15px;
+    }
+}

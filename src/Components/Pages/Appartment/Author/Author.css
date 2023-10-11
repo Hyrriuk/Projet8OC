@@ -1,0 +1,14 @@
+.appartment__author__infos {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.appartment__author__infos p {
+  color: #ff6060;
+  text-align: right;
+}
+.appartment__author__infos img {
+  border-radius: 80px;
+  width: 3rem;
+  height: 3rem;
+}/*# sourceMappingURL=Author.css.map */

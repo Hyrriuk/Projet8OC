@@ -1,0 +1,16 @@
+.appartment__author__infos {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+        color: #ff6060;
+        text-align: right;
+    }
+
+    img {
+        border-radius: 80px;
+        width: 3rem;
+        height: 3rem;
+    }
+}

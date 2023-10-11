@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  width: 95%;
+}
+.header__logo {
+  width: 20vw;
+  height: auto;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav__buttonNav {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ff6060;
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 20px;
+  text-align: center;
+}
+.header__nav__buttonNav:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=Header.css.map */

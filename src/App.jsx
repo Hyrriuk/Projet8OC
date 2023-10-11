@@ -1,20 +1,18 @@
-import {useState} from "react";
-import {BrowserRouter as Router} from "react-router-dom";
-import Header from "./Header";
-import Banner from "./Banner";
-import Gallery from "./Gallery";
-import Footer from "./Footer";
+import {Routes, Route} from "react-router-dom";
+import About from "./Components/Pages/About/About";
+import Home from "./Components/Pages/Home/Home";
+import Error from "./Components/Pages/Error/Error";
+import Appartment from "./Components/Pages/Appartment/Appartment";
+import "font-awesome/css/font-awesome.min.css";
 
 function App() {
     return (
-        <Router>
-            <>
-                <Header />
-                <Banner imagePath="./public/images/banneraccueil.svg" />
-                <Gallery />
-                <Footer />
-            </>
-        </Router>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/A-propos" element={<About />} />
+            <Route path="/card/:id" element={<Appartment />} />
+            <Route path="/Erreur" element={<Error />} />
+        </Routes>
     );
 }
 

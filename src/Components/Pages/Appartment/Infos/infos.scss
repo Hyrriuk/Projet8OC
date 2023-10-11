@@ -1,0 +1,29 @@
+.appartment__infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vw;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        color: #ff6060;
+        gap: 5px;
+
+        h2 {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+}

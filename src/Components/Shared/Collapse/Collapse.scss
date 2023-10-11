@@ -1,0 +1,50 @@
+.collapses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+    &__collapse {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 95vw;
+        overflow: hidden;
+        color: #ff6060;
+
+        button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            width: 95vw;
+            height: 30px;
+            background-color: #ff6060;
+            border: none;
+        }
+
+        &__collapsed {
+            overflow: hidden;
+            background-color: transparent;
+        }
+
+        &__content {
+            background-color: #f6f6f6;
+            animation: OpenCloseCollapse 1s ease-in-out forwards;
+        }
+    }
+}
+
+@keyframes OpenCloseCollapse {
+    from {
+        max-height: 0;
+        opacity: 0;
+        padding-bottom: 0;
+    }
+    to {
+        max-height: 200px;
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+}

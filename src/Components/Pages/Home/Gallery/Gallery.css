@@ -1,0 +1,8 @@
+.gallery {
+  display: flex;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  margin: 0 auto;
+}/*# sourceMappingURL=Gallery.css.map */
