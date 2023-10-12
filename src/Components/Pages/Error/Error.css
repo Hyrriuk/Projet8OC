@@ -1,0 +1,33 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin: 0 auto;
+  color: #ff6060;
+}
+.error__numero {
+  font-size: 96px;
+  font-weight: 900;
+  margin-bottom: 113px;
+  margin-top: 68px;
+}
+.error p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.error__buttonNav {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff6060;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 113px;
+  text-decoration: underline;
+}/*# sourceMappingURL=Error.css.map */

@@ -1,0 +1,38 @@
+.carrousel {
+  position: relative;
+  width: 90vw;
+  margin: 0 auto;
+}
+.carrousel__container {
+  width: inherit;
+}
+.carrousel__container__image {
+  display: none;
+}
+.carrousel__container__image.active {
+  display: block;
+  transform: translateX(0);
+  width: inherit;
+  height: 255px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+.carrousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 48px;
+  cursor: pointer;
+}
+.carrousel__button.prev {
+  left: 10px;
+}
+.carrousel__button.next {
+  right: 10px;
+}/*# sourceMappingURL=Carrousel.css.map */

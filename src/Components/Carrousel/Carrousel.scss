@@ -1,0 +1,42 @@
+.carrousel {
+    position: relative;
+    width: 90vw;
+    margin: 0 auto;
+
+    &__container {
+        width: inherit;
+        &__image {
+            display: none;
+
+            &.active {
+                display: block;
+                transform: translateX(0);
+                width: inherit;
+                height: 255px;
+                border-radius: 10px;
+                object-fit: cover;
+                transition: transform 0.3s ease-in-out;
+                position: relative;
+            }
+        }
+    }
+
+    &__button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        color: white;
+        font-size: 48px;
+        cursor: pointer;
+
+        &.prev {
+            left: 10px;
+        }
+
+        &.next {
+            right: 10px;
+        }
+    }
+}

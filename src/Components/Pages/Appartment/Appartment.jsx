@@ -1,5 +1,5 @@
 import React from "react";
-import {useParams} from "react-router-dom";
+import {Routes, Route, useParams} from "react-router-dom";
 import Banner from "../../Banner/Banner";
 import data from "../../../../public/data/logements.json";
 import Stars from "./Stars/Stars";
@@ -7,6 +7,8 @@ import Infos from "./Infos/Infos";
 import Author from "./Author/Author";
 import Tags from "./Tags/Tags";
 import CollapsesAppart from "./CollapsesAppart/CollapsesAppart";
+import Error from "../Error/Error";
+import Carrousel from "../../Carrousel/Carrousel";
 import "./Appartment.scss";
 
 function Appartment() {
@@ -15,13 +17,13 @@ function Appartment() {
     const card = data.find((item) => item.id === id);
 
     if (!card) {
-        return <div>Card non trouvée</div>;
+        return <Error />;
     }
 
     return (
         // carrousel à faire ce week-end si on est pas un gros nullos
         <>
-            <Banner imagePath={card.cover} />
+            <Carrousel />
             <Infos />
             <Tags />
             <div className="appartment__author">

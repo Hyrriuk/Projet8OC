@@ -4,6 +4,7 @@ import Home from "./Components/Pages/Home/Home";
 import Error from "./Components/Pages/Error/Error";
 import Appartment from "./Components/Pages/Appartment/Appartment";
 import "font-awesome/css/font-awesome.min.css";
+import "./Styles.scss";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/A-propos" element={<About />} />
             <Route path="/card/:id" element={<Appartment />} />
-            <Route path="/Erreur" element={<Error />} />
+            <Route path="*" element={<Error />} />
         </Routes>
     );
 }
