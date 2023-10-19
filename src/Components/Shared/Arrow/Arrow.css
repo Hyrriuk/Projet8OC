@@ -1,0 +1,7 @@
+.arrow__rotate {
+  transform: rotate(-180deg);
+}
+
+.arrow {
+  transition: transform 0.5s ease-in-out;
+}/*# sourceMappingURL=Arrow.css.map */

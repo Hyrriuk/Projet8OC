@@ -4,6 +4,7 @@
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
+    height: 2rem;
     width: 90vw;
 
     &__tag {
@@ -11,5 +12,10 @@
         background-color: #ff6060;
         border-radius: 10px;
         padding: 5px 15px;
+    }
+}
+@media (min-width: 768px) {
+    .appartment__tags {
+        width: auto;
     }
 }

@@ -19,9 +19,6 @@ function Carrousel() {
 
     return (
         <div className="carrousel">
-            <button className="carrousel__button prev" onClick={prevSlide}>
-                &lt;
-            </button>
             <div className="carrousel__container">
                 {slides.map((slide, index) => (
                     <img
@@ -32,6 +29,9 @@ function Carrousel() {
                     />
                 ))}
             </div>
+            <button className="carrousel__button prev" onClick={prevSlide}>
+                &lt;
+            </button>
             <button className="carrousel__button next" onClick={nextSlide}>
                 &gt;
             </button>

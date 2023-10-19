@@ -7,3 +7,22 @@
     align-items: center;
     width: 90vw;
 }
+
+@media (min-width: 768px) {
+    .appartment__author {
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .appartment__intels {
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        padding-bottom: 25px;
+
+        &__placement {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

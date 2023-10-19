@@ -24,13 +24,17 @@ function Appartment() {
         // carrousel à faire ce week-end si on est pas un gros nullos
         <>
             <Carrousel />
-            <Infos />
-            <Tags />
-            <div className="appartment__author">
-                <div className="appartment__author__note">
-                    <Stars note={card.rating} />
+            <div className="appartment__intels">
+                <div className="appartments__intels__placement">
+                    <Infos />
+                    <Tags />
                 </div>
-                <Author />
+                <div className="appartment__author">
+                    <div className="appartment__author__note">
+                        <Stars note={card.rating} />
+                    </div>
+                    <Author />
+                </div>
             </div>
             <CollapsesAppart />
         </>

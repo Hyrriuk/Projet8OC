@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"CollapsesAppart.css"}
+{"version":3,"sources":["CollapsesAppart.scss","CollapsesAppart.css"],"names":[],"mappings":"AAAA;EACI;IACI,aAAA;IACA,mBAAA;IACA,8BAAA;IACA,WAAA;IACA,cAAA;ECCN;EDCM;IACI,uBAAA;IACA,8BAAA;ECCV;EDAU;IACI,WAAA;ECEd;AACF","file":"CollapsesAppart.css"}

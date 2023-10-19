@@ -23,4 +23,10 @@
   font-style: normal;
   font-weight: 500;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .appartment__infos {
+    width: auto;
+  }
 }/*# sourceMappingURL=infos.css.map */

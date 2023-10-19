@@ -15,7 +15,7 @@ function CollapsesAppart() {
         </React.Fragment>
     ));
     return (
-        <div className="CollapsesAppart">
+        <div className="collapsesappart">
             <Collapse collapseName="Description">{card.description}</Collapse>
             <Collapse collapseName="Équipements">
                 <p>{equipmentList}</p>

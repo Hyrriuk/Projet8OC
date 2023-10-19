@@ -12,11 +12,27 @@
         margin: 0 auto;
     }
     &__text {
-        margin-left: 16px;
+        margin-left: 24px;
         position: absolute;
         color: white;
-        font-size: 24px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner {
+        justify-content: center;
+
+        &__text {
+            font-size: 36px;
+        }
+    }
+}
+
+@media (min-width: 1080px) {
+    .banner__text {
+        font-size: 48px;
     }
 }

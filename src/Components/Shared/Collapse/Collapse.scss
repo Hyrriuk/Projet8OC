@@ -4,12 +4,14 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    width: 90vw;
+    margin: 0 auto;
 
     &__collapse {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 95vw;
+        width: 100%;
         overflow: hidden;
         color: #ff6060;
 
@@ -20,7 +22,6 @@
             color: white;
             border-radius: 5px;
             padding: 10px;
-            width: 95vw;
             height: 30px;
             background-color: #ff6060;
             border: none;
@@ -34,7 +35,7 @@
         &__content {
             background-color: #f6f6f6;
             padding: 20px;
-            animation: OpenCloseCollapse 1s ease-in-out forwards;
+            animation: OpenCloseCollapse 1s ease-in-out;
 
             p {
                 padding: 0;

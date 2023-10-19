@@ -5,4 +5,22 @@
     justify-content: center;
     padding-top: 30px;
     margin: 0 auto;
+
+    a {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .gallery {
+        position: relative;
+        display: flex;
+        width: 1240px;
+        border-radius: 20px;
+        background-color: #f6f6f6;
+        justify-content: center;
+        padding: 50px;
+        margin: 0 auto;
+        gap: 50px;
+    }
 }

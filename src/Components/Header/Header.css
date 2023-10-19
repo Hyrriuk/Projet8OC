@@ -4,10 +4,10 @@
   margin: 0 auto;
   padding-bottom: 45px;
   padding-top: 45px;
-  width: 95%;
+  width: 90vw;
 }
 .header__logo {
-  width: 20vw;
+  width: 30vw;
   height: auto;
 }
 .header__nav {
@@ -19,7 +19,6 @@
   font-weight: 500;
   color: #ff6060;
   background-color: white;
-  padding: 10px 20px;
   border: none;
   cursor: pointer;
   padding: 0;
@@ -29,4 +28,10 @@
 }
 .header__nav__buttonNav:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .header__nav__buttonNav {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=Header.css.map */

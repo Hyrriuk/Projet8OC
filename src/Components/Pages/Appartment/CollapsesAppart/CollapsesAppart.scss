@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .collapsesappart {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90vw;
+        margin: 0 auto;
+
+        .collapses {
+            align-items: flex-start;
+            justify-content: space-between;
+            &__collapse {
+                width: 42vw;
+            }
+        }
+    }
+}

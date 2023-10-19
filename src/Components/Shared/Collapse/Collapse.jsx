@@ -13,7 +13,7 @@ function Collapse(props) {
         <div className="collapses">
             <div className={`collapses__collapse ${isCollapsed ? "collapses__collapsed" : ""}`}>
                 <button onClick={toggleCollapse}>
-                    {props.collapseName} <Arrow />
+                    {props.collapseName} <Arrow arrowName={`arrow ${isCollapsed ? "" : "arrow__rotate"}`} />
                 </button>
                 {!isCollapsed && <div className="collapses__collapse__content">{props.children}</div>}
             </div>

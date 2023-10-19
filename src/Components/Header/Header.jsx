@@ -9,10 +9,10 @@ function Header() {
             <Logo LogoName="header__logo" Color="#FF6060" />
             <nav className="header__nav">
                 <BoutonNavigation className="header__nav__buttonNav" to="/">
-                    Accueil
+                    ACCUEIL
                 </BoutonNavigation>
                 <BoutonNavigation className="header__nav__buttonNav" to="/a-propos">
-                    À Propos
+                    À PROPOS
                 </BoutonNavigation>
             </nav>
         </header>

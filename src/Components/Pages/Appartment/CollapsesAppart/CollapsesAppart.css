@@ -1,1 +1,16 @@
-/*# sourceMappingURL=CollapsesAppart.css.map */
+@media (min-width: 768px) {
+  .collapsesappart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .collapsesappart .collapses {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .collapsesappart .collapses__collapse {
+    width: 42vw;
+  }
+}/*# sourceMappingURL=CollapsesAppart.css.map */
