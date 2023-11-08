@@ -17,6 +17,8 @@ function Carrousel() {
         setCurrentIndex((currentIndex - 1 + slides.length) % slides.length);
     };
 
+    const showBoutonNavigation = slides.length > 1;
+
     return (
         <div className="carrousel">
             <div className="carrousel__container">
@@ -29,12 +31,17 @@ function Carrousel() {
                     />
                 ))}
             </div>
-            <button className="carrousel__button prev" onClick={prevSlide}>
-                &lt;
-            </button>
-            <button className="carrousel__button next" onClick={nextSlide}>
-                &gt;
-            </button>
+            {showBoutonNavigation && (
+                <button className="carrousel__button prev" onClick={prevSlide}>
+                    &lt;
+                </button>
+            )}
+            {showBoutonNavigation && (
+                <button className="carrousel__button next" onClick={nextSlide}>
+                    &gt;
+                </button>
+            )}
+            <div className="carrousel__number">{`${currentIndex + 1}/${slides.length}`}</div>
         </div>
     );
 }

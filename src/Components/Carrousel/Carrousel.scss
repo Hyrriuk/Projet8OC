@@ -39,4 +39,12 @@
             right: 10px;
         }
     }
+
+    &__number {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        color: white;
+        font-size: 18px;
+    }
 }

@@ -35,4 +35,11 @@
 }
 .carrousel__button.next {
   right: 10px;
+}
+.carrousel__number {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  color: white;
+  font-size: 18px;
 }/*# sourceMappingURL=Carrousel.css.map */

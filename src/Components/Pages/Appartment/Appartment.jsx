@@ -21,7 +21,6 @@ function Appartment() {
     }
 
     return (
-        // carrousel à faire ce week-end si on est pas un gros nullos
         <>
             <Carrousel />
             <div className="appartment__intels">
