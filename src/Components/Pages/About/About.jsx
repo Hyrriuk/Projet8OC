@@ -1,11 +1,11 @@
-import React from "react";
-import Banner from "../../Banner/Banner";
-import CollapseAbout from "./CollapseAbout/CollapseAbout";
+import React from 'react';
+import Banner from '../../Banner/Banner';
+import CollapseAbout from './CollapseAbout/CollapseAbout';
 
 function About() {
     return (
         <>
-            <Banner imagePath="./public/images/bannerabout.svg" />
+            <Banner imagePath="/images/bannerabout.svg" />
             <CollapseAbout />
         </>
     );
